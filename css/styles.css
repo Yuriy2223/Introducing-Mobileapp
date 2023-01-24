@@ -1,0 +1,135 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+:root {
+  --main-color-white: #ffffff;
+  --main-color-white-2: #f6f7f7;
+  --main-color-black: #000000;
+  --main-bgr-color-1-1: (90.03deg, #00c5eb -1.97%, #b544fe 89.43%);
+  --main-bgr-color-1-1: (
+    313.81deg,
+    rgba(0, 197, 235, 0.5) -7.83%,
+    rgba(181, 68, 254, 0.5) 83.61%
+  );
+  --main-bgr-color-2: #06071b;
+  --main-bgr-color-3: #00c5eb;
+  --main-bgr-color-4: #b544fe;
+}
+
+body {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Inter", sans-serif;
+}
+
+.hero {
+  background-color: var(--main-bgr-color-2);
+  padding-top: 26px;
+  padding-bottom: 145px;
+  color: var(--main-color-white);
+}
+
+.container {
+}
+
+.hero-header {
+  padding: 20px 16px;
+  background-color: var(--main-bgr-color-3);
+  display: flex;
+}
+.hero-header-navigation {
+  display: flex;
+  /* align-items: center;
+  margin-right: auto;*/
+}
+
+.logo {
+  font-size: 28px;
+  line-height: calc(34 / 28);
+  color: var(--main-color-white);
+}
+.hero-header-list {
+  align-items: center;
+  margin-right: auto;
+  display: flex;
+  gap: 40px;
+}
+
+.hero-header-item {
+}
+
+.hero-header-link {
+  text-transform: uppercase;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+  color: var(--main-color-white);
+}
+
+.container-hero {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.hero-title {
+  margin-top: 145px;
+  font-size: 40px;
+  line-height: calc(48 / 40);
+}
+.hero-subtitle {
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  margin-top: 12px;
+  margin-bottom: 28px;
+}
+
+.hero-list-p {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+}
+.hero-item-p {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.hero-button {
+  margin-top: 60px;
+}
+.hero-list-phone {
+}
+.hero-item-phone {
+}
+ /*<ul class="hero-list-phone list">
+            <li class="hero-item-phone">
+              <img src="./images/decor-1.jpg" alt="dekor" />
+            </li>
+            <li class="hero-item-phone">
+              <img src="./images/decor-2-phone.jpg" alt="phone" />
+            </li>
+          </ul>*/
