@@ -384,10 +384,10 @@ body {
 
 .footer {
   background-color: var(--main-bgr-color-2);
-  padding: 80px 16px 20px;
+  padding-top: 80px;
 }
 
-.container {
+.container-footer {
   display: flex;
 }
 
@@ -402,6 +402,9 @@ body {
 }
 
 .container-1 {
+  padding: 0 16px;
+  width: calc(1280 / 2);
+  
 }
 
 .footer-subtitle {
@@ -455,6 +458,7 @@ body {
 }
 
 .qwert {
+  display: block;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -462,4 +466,6 @@ body {
   line-height: 17px;
   color: var(--main-color-white);
   margin-top: 100px;
+  border: 1px solid #ffffff;
+  padding: 20px 0;
 }
